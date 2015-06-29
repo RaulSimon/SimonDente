@@ -11,7 +11,7 @@ namespace SimonDente.Infra.Data.CovenantInfra
     public class CovenantContext : DbContext
     {
         public CovenantContext()
-            : base("CovenantContext")
+            : base("SimonDente")
         {
             
         }

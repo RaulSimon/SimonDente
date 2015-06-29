@@ -21,7 +21,7 @@ namespace SimonDente.AspNet
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<ConsultationContext>());
-           
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<CovenantContext>());
         }
     }
 }

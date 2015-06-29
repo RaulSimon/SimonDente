@@ -11,7 +11,7 @@ namespace SimonDente.Infra.Data
     public class ConsultationContext :DbContext
     {
         public ConsultationContext()
-            : base("ConsultationContext")
+            : base("SimonDente")
         {
             
         }
