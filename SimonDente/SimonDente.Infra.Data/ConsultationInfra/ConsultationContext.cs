@@ -10,9 +10,19 @@ namespace SimonDente.Infra.Data
 {
     public class ConsultationContext :DbContext
     {
-      
+        public ConsultationContext()
+            : base("ConsultationContext")
+        {
+            
+        }
         public DbSet<Consultation> Consultations { get; set; }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Consultation>().ToTable("TBConsultation");
+                    
+
+        }
         
     }
 }

@@ -15,7 +15,7 @@ namespace SimonDente.Test
         public void Setup()
         {
             //Inicializa o banco, apagando e recriando-o
-            Database.SetInitializer(new CreateDatabaseIfNotExists<ConsultationContext>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<ConsultationContext>());
             //Seta um registro padrão pra ser usado nos testes
             _contextForTest = new ConsultationContext();
             _contextForTest.Consultations.Add(ObjectMother.GetConsultation());
