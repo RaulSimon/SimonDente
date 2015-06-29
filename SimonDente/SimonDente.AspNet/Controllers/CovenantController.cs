@@ -13,6 +13,8 @@ namespace SimonDente.AspNet.Controllers
     public class CovenantController : Controller
     {
         private ICovenantRepository _repository;
+
+
         private ICovenantService _service;
 
         public CovenantController()
