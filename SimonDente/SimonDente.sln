@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Camada de Apresentação", "1 - Camada de Apresentação", "{0D84FE4B-0BAE-4069-B124-12F63D47DA88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de Aplicação", "2 - Camada de Aplicação", "{A2DC21EA-AE22-4B62-8AAE-B3EC3AE3BF4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Dominio", "3 - Camada de Dominio", "{AFF4B231-233D-4B83-8BF5-ECC6D11CEAE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Camada de Infra", "4 - Camada de Infra", "{E03D6CA4-AAAF-49CD-9B1D-C567B59B64DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{256C2B64-E5C1-4F0C-99CA-9D4141E85990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonDente.Test", "SimonDente.Test\SimonDente.Test.csproj", "{01CFA764-30B3-4AE6-A1EC-F5A06BDAD359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonDente.Infra", "SimonDente.Infra\SimonDente.Infra.csproj", "{6E125C13-200A-475A-94EC-F8939AAA71C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonDente.Infra.Data", "SimonDente.Infra.Data\SimonDente.Infra.Data.csproj", "{52049677-8716-4E38-B8E8-34784FCD98E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonDente.Domain", "SimonDente.Domain\SimonDente.Domain.csproj", "{7E7573DC-AFEB-4E88-BDE0-760E26933916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonDente.Application", "SimonDente.Application\SimonDente.Application.csproj", "{6E337EEE-F144-4FBA-B697-82C5E6D0066B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8B699E15-4A27-4D1E-A7E8-B115A272C708}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonDente.AspNet", "SimonDente.AspNet\SimonDente.AspNet.csproj", "{F8959980-7CB9-4DF6-8AD8-49D9D0DBB936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CFA764-30B3-4AE6-A1EC-F5A06BDAD359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CFA764-30B3-4AE6-A1EC-F5A06BDAD359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CFA764-30B3-4AE6-A1EC-F5A06BDAD359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CFA764-30B3-4AE6-A1EC-F5A06BDAD359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E125C13-200A-475A-94EC-F8939AAA71C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E125C13-200A-475A-94EC-F8939AAA71C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E125C13-200A-475A-94EC-F8939AAA71C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E125C13-200A-475A-94EC-F8939AAA71C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52049677-8716-4E38-B8E8-34784FCD98E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52049677-8716-4E38-B8E8-34784FCD98E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52049677-8716-4E38-B8E8-34784FCD98E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52049677-8716-4E38-B8E8-34784FCD98E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7573DC-AFEB-4E88-BDE0-760E26933916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7573DC-AFEB-4E88-BDE0-760E26933916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7573DC-AFEB-4E88-BDE0-760E26933916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7573DC-AFEB-4E88-BDE0-760E26933916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E337EEE-F144-4FBA-B697-82C5E6D0066B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E337EEE-F144-4FBA-B697-82C5E6D0066B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E337EEE-F144-4FBA-B697-82C5E6D0066B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E337EEE-F144-4FBA-B697-82C5E6D0066B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8959980-7CB9-4DF6-8AD8-49D9D0DBB936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8959980-7CB9-4DF6-8AD8-49D9D0DBB936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8959980-7CB9-4DF6-8AD8-49D9D0DBB936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8959980-7CB9-4DF6-8AD8-49D9D0DBB936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01CFA764-30B3-4AE6-A1EC-F5A06BDAD359} = {256C2B64-E5C1-4F0C-99CA-9D4141E85990}
+		{6E125C13-200A-475A-94EC-F8939AAA71C0} = {E03D6CA4-AAAF-49CD-9B1D-C567B59B64DE}
+		{52049677-8716-4E38-B8E8-34784FCD98E1} = {E03D6CA4-AAAF-49CD-9B1D-C567B59B64DE}
+		{7E7573DC-AFEB-4E88-BDE0-760E26933916} = {AFF4B231-233D-4B83-8BF5-ECC6D11CEAE9}
+		{6E337EEE-F144-4FBA-B697-82C5E6D0066B} = {A2DC21EA-AE22-4B62-8AAE-B3EC3AE3BF4B}
+		{F8959980-7CB9-4DF6-8AD8-49D9D0DBB936} = {0D84FE4B-0BAE-4069-B124-12F63D47DA88}
+	EndGlobalSection
+EndGlobal

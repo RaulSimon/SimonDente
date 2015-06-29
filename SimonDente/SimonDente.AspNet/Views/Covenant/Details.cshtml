@@ -1,0 +1,50 @@
+﻿@model SimonDente.Domain.Covenant
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Covenant</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Business)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Business)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Plan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Plan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Coverage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Coverage)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Voltar para Lista", "Index")
+</p>
